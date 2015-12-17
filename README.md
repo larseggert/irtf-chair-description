@@ -2,6 +2,8 @@
 
 This is the working area for the Individual internet-draft, "The Role of the IRTF Chair".
 
+![Travis status](https://travis-ci.org/larseggert/irtf-chair-description.svg?branch=master)
+
 * [Editor's copy](https://larseggert.github.io/irtf-chair-description/)
 * [Individual Draft] (https://tools.ietf.org/html/draft-eggert-irtf-chair-description)
 
