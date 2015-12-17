@@ -1,0 +1,280 @@
+
+
+
+
+Network Working Group                                          L. Eggert
+Internet-Draft                                                    NetApp
+Intended status: Informational                         December 17, 2015
+Expires: June 19, 2016
+
+
+                       The Role of the IRTF Chair
+               draft-eggert-irtf-chair-description-latest
+
+Abstract
+
+   This document briefly describes the role of the Chair of the Internet
+   Research Task Force (IRTF), discusses its duties and outlines the
+   skill set a candidate for the role should ideally have.
+
+Status of This Memo
+
+   This Internet-Draft is submitted in full conformance with the
+   provisions of BCP 78 and BCP 79.
+
+   Internet-Drafts are working documents of the Internet Engineering
+   Task Force (IETF).  Note that other groups may also distribute
+   working documents as Internet-Drafts.  The list of current Internet-
+   Drafts is at http://datatracker.ietf.org/drafts/current/.
+
+   Internet-Drafts are draft documents valid for a maximum of six months
+   and may be updated, replaced, or obsoleted by other documents at any
+   time.  It is inappropriate to use Internet-Drafts as reference
+   material or to cite them other than as "work in progress."
+
+   This Internet-Draft will expire on June 19, 2016.
+
+Copyright Notice
+
+   Copyright (c) 2015 IETF Trust and the persons identified as the
+   document authors.  All rights reserved.
+
+   This document is subject to BCP 78 and the IETF Trust's Legal
+   Provisions Relating to IETF Documents
+   (http://trustee.ietf.org/license-info) in effect on the date of
+   publication of this document.  Please review these documents
+   carefully, as they describe your rights and restrictions with respect
+   to this document.  Code Components extracted from this document must
+   include Simplified BSD License text as described in Section 4.e of
+   the Trust Legal Provisions and are provided without warranty as
+   described in the Simplified BSD License.
+
+
+
+
+
+Eggert                    Expires June 19, 2016                 [Page 1]
+
+Internet-Draft         The Role of the IRTF Chair          December 2015
+
+
+Table of Contents
+
+   1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
+   2.  Duties  . . . . . . . . . . . . . . . . . . . . . . . . . . .   2
+     2.1.  Administrative  . . . . . . . . . . . . . . . . . . . . .   2
+     2.2.  Strategic . . . . . . . . . . . . . . . . . . . . . . . .   3
+     2.3.  IAB Membership  . . . . . . . . . . . . . . . . . . . . .   4
+   3.  Informative References  . . . . . . . . . . . . . . . . . . .   4
+   Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   5
+
+1.  Introduction
+
+   The Internet Research Task Force (IRTF) focuses on longer term
+   research issues related to the Internet while the parallel
+   organization, the Internet Engineering Task Force (IETF), focuses on
+   the shorter term issues of engineering and standards making.
+
+   The IRTF consists of a number of focused and long-term Research
+   Groups (RGs).  These groups work on topics related to Internet
+   protocols, applications, architecture and technology.  RGs have the
+   stable long term membership needed to promote the development of
+   research collaboration and teamwork in exploring research issues.
+   Individual contributors participate in the IRTF, rather than
+   representatives of organizations.
+
+   [RFC2014] details the procedures by which RGs operate.  [RFC4440]
+   discusses a view from the Internet Architecture Board (IAB) on the
+   IRTF and its relationship to the IETF.  The RFC Editor publishes
+   documents from the IRTF and its RGs on the IRTF Stream [RFC5743].
+
+   The IRTF Chair manages the IRTF in consultation with the Internet
+   Research Steering Group (IRSG).  The IRSG membership includes the
+   IRTF Chair, the chairs of the various RGs and other individuals
+   ("members at large") from the research community selected by the IRTF
+   Chair.
+
+2.  Duties
+
+   This section discusses the various duties of the IRTF chair and
+   outlines the skill set a candidate for the role should ideally have.
+
+2.1.  Administrative
+
+   A good fraction of the duties of the IRTF Chair are administrative.
+
+   Some of those related to publishing documents on the IRTF RFC Stream,
+   such as ensuring sufficient review, so that documents published are
+   of good quality, scheduling the required Internet Engineering
+
+
+
+Eggert                    Expires June 19, 2016                 [Page 2]
+
+Internet-Draft         The Role of the IRTF Chair          December 2015
+
+
+   Steering Group (IESG) review {{RFC 5742}}, and following up with the
+   IESG, IANA and the RFC Editor during and after the publication
+   process.
+
+   Other administrative duties include reviewing and approving requests
+   from the RGs for time slots during IETF meetings or interim meetings
+   elsewhere, ensuring that meeting materials are submitted on schedule,
+   and maintaining the IRTF web site.
+
+   The IRTF Chair also needs to appoint, replace and manage the RG
+   chairs and the IRSG, and follow the research work of the chartered
+   and proposed RGs to a degree that is sufficient to let them develop
+   an understanding on whether they are generally operating well.
+
+   These administrative duties are very similar to part of the duties of
+   an Area Director (AD) in the IETF and require the same set of
+   organizational and communication skills [IESGREQ].  They also require
+   a regular time commitment throughout the year, the ability to attend
+   most of the IETF meetings in person, as well as some other related
+   travel.
+
+   The IRTF Chair regularly interacts with the ADs and the IESG for
+   document reviews, IETF meeting agenda planning, and often provides
+   input on various IETF efforts and topics.  The IRTF Chair also
+   regularly interacts with the IETF Administrative Oversight Committee
+   (IAOC) and the IETF Secretariat for meeting planning, budgeting and
+   other organizational purposes.  A good working relationship with
+   these bodies is important.
+
+2.2.  Strategic
+
+   Arguably the more important part of the duties of the IRTF Chair are
+   strategic, and concern shaping of the purpose and scope of the IRTF,
+   by making decisions about which RGs to charter, which RGs to
+   terminate, and which other activities or efforts the IRTF should
+   organize or affiliate itself with.
+
+   For some new RGs, the research and engineering community brings a
+   proposal to the IRTF Chair for discussion.  However, it is common for
+   the IRTF Chair to identify a new area of research that is considered
+   of importance to the Internet, actively motivate people in the
+   research and engineering community to consider the formation of an
+   RG, and help them navigate the process for doing so.
+
+   In order to be able to fulfill this duty, it is important for the
+   IRTF Chair to be involved in both the academic research community as
+   well as engineering or operational communities.  Without a
+   demonstrated history of participation in these often somewhat
+
+
+
+Eggert                    Expires June 19, 2016                 [Page 3]
+
+Internet-Draft         The Role of the IRTF Chair          December 2015
+
+
+   isolated communities it will be very difficult to identify areas of
+   academic research that are suitable for being brought into the IRTF.
+   A good network of contacts in these communities will be very helpful
+   in identifying and motivating potential RG chairs and participants.
+
+   Involvement in the academic research community can be demonstrated
+   through a publication record, membership in conference program and
+   organizational committees, participation in publicly funded
+   collaborative research projects, among others.
+
+2.3.  IAB Membership
+
+   The IRTF Chair serves as an "ex officio" member of the IAB [RFC2850],
+   and is expected to participate in IAB discussions and activities.
+   This duty benefits from expertise that is similar to those of full
+   IAB members [IABREQ], and requires a similar time and travel
+   commitment.
+
+3.  Informative References
+
+   [IABREQ]   NomCom 2015, "Desired Expertise: Member of the Internet
+              Architecture Board", 2015,
+              <https://datatracker.ietf.org/nomcom/2015/
+              requirements/#iab-member>.
+
+   [IESGREQ]  NomCom 2015, "Generic IESG Member Expertise", 2015,
+              <http://trac.tools.ietf.org/group/iesg/trac/wiki/
+              GenericExpertise>.
+
+   [RFC2014]  Weinrib, A. and J. Postel, "IRTF Research Group Guidelines
+              and Procedures", BCP 8, RFC 2014, DOI 10.17487/RFC2014,
+              October 1996, <http://www.rfc-editor.org/info/rfc2014>.
+
+   [RFC2850]  Internet Architecture Board and B. Carpenter, Ed.,
+              "Charter of the Internet Architecture Board (IAB)",
+              BCP 39, RFC 2850, DOI 10.17487/RFC2850, May 2000,
+              <http://www.rfc-editor.org/info/rfc2850>.
+
+   [RFC4440]  Floyd, S., Ed., Paxson, V., Ed., Falk, A., Ed., and IAB,
+              "IAB Thoughts on the Role of the Internet Research Task
+              Force (IRTF)", RFC 4440, DOI 10.17487/RFC4440, March 2006,
+              <http://www.rfc-editor.org/info/rfc4440>.
+
+   [RFC5743]  Falk, A., "Definition of an Internet Research Task Force
+              (IRTF) Document Stream", RFC 5743, DOI 10.17487/RFC5743,
+              December 2009, <http://www.rfc-editor.org/info/rfc5743>.
+
+
+
+
+
+Eggert                    Expires June 19, 2016                 [Page 4]
+
+Internet-Draft         The Role of the IRTF Chair          December 2015
+
+
+Author's Address
+
+   Lars Eggert
+   NetApp
+   Sonnenallee 1
+   Kirchheim bei Muenchen  85551
+   Germany
+
+   Phone: +49 151 120 55791
+   Email: lars@netapp.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Eggert                    Expires June 19, 2016                 [Page 5]
