@@ -10,7 +10,3 @@ install:
  - pip install xml2rfc
 
 script: make ghpages
-
-notifications:
-  email:
-    on_success: never
