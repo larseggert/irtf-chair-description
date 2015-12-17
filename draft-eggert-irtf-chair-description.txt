@@ -2,7 +2,7 @@
 
 
 
-Network Working Group                                          L. Eggert
+Internet Research Task Force (IRTF)                            L. Eggert
 Internet-Draft                                                    NetApp
 Intended status: Informational                         December 17, 2015
 Expires: June 19, 2016
@@ -58,11 +58,15 @@ Eggert                    Expires June 19, 2016                 [Page 1]
 Internet-Draft         The Role of the IRTF Chair          December 2015
 
 
+   This document may not be modified, and derivative works of it may not
+   be created, except to format it for publication as an RFC or to
+   translate it into languages other than English.
+
 Table of Contents
 
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
    2.  Duties  . . . . . . . . . . . . . . . . . . . . . . . . . . .   2
-     2.1.  Administrative  . . . . . . . . . . . . . . . . . . . . .   2
+     2.1.  Administrative  . . . . . . . . . . . . . . . . . . . . .   3
      2.2.  Strategic . . . . . . . . . . . . . . . . . . . . . . . .   3
      2.3.  IAB Membership  . . . . . . . . . . . . . . . . . . . . .   4
    3.  Informative References  . . . . . . . . . . . . . . . . . . .   4
@@ -99,13 +103,9 @@ Table of Contents
    This section discusses the various duties of the IRTF chair and
    outlines the skill set a candidate for the role should ideally have.
 
-2.1.  Administrative
 
-   A good fraction of the duties of the IRTF Chair are administrative.
 
-   Some of those related to publishing documents on the IRTF RFC Stream,
-   such as ensuring sufficient review, so that documents published are
-   of good quality, scheduling the required Internet Engineering
+
 
 
 
@@ -114,6 +114,13 @@ Eggert                    Expires June 19, 2016                 [Page 2]
 Internet-Draft         The Role of the IRTF Chair          December 2015
 
 
+2.1.  Administrative
+
+   A good fraction of the duties of the IRTF Chair are administrative.
+
+   Some of those related to publishing documents on the IRTF RFC Stream,
+   such as ensuring sufficient review, so that documents published are
+   of good quality, scheduling the required Internet Engineering
    Steering Group (IESG) review {{RFC 5742}}, and following up with the
    IESG, IANA and the RFC Editor during and after the publication
    process.
@@ -155,13 +162,6 @@ Internet-Draft         The Role of the IRTF Chair          December 2015
    proposal to the IRTF Chair for discussion.  However, it is common for
    the IRTF Chair to identify a new area of research that is considered
    of importance to the Internet, actively motivate people in the
-   research and engineering community to consider the formation of an
-   RG, and help them navigate the process for doing so.
-
-   In order to be able to fulfill this duty, it is important for the
-   IRTF Chair to be involved in both the academic research community as
-   well as engineering or operational communities.  Without a
-   demonstrated history of participation in these often somewhat
 
 
 
@@ -170,6 +170,13 @@ Eggert                    Expires June 19, 2016                 [Page 3]
 Internet-Draft         The Role of the IRTF Chair          December 2015
 
 
+   research and engineering community to consider the formation of an
+   RG, and help them navigate the process for doing so.
+
+   In order to be able to fulfill this duty, it is important for the
+   IRTF Chair to be involved in both the academic research community as
+   well as engineering or operational communities.  Without a
+   demonstrated history of participation in these often somewhat
    isolated communities it will be very difficult to identify areas of
    academic research that are suitable for being brought into the IRTF.
    A good network of contacts in these communities will be very helpful
@@ -208,14 +215,7 @@ Internet-Draft         The Role of the IRTF Chair          December 2015
               BCP 39, RFC 2850, DOI 10.17487/RFC2850, May 2000,
               <http://www.rfc-editor.org/info/rfc2850>.
 
-   [RFC4440]  Floyd, S., Ed., Paxson, V., Ed., Falk, A., Ed., and IAB,
-              "IAB Thoughts on the Role of the Internet Research Task
-              Force (IRTF)", RFC 4440, DOI 10.17487/RFC4440, March 2006,
-              <http://www.rfc-editor.org/info/rfc4440>.
 
-   [RFC5743]  Falk, A., "Definition of an Internet Research Task Force
-              (IRTF) Document Stream", RFC 5743, DOI 10.17487/RFC5743,
-              December 2009, <http://www.rfc-editor.org/info/rfc5743>.
 
 
 
@@ -225,6 +225,15 @@ Eggert                    Expires June 19, 2016                 [Page 4]
 
 Internet-Draft         The Role of the IRTF Chair          December 2015
 
+
+   [RFC4440]  Floyd, S., Ed., Paxson, V., Ed., Falk, A., Ed., and IAB,
+              "IAB Thoughts on the Role of the Internet Research Task
+              Force (IRTF)", RFC 4440, DOI 10.17487/RFC4440, March 2006,
+              <http://www.rfc-editor.org/info/rfc4440>.
+
+   [RFC5743]  Falk, A., "Definition of an Internet Research Task Force
+              (IRTF) Document Stream", RFC 5743, DOI 10.17487/RFC5743,
+              December 2009, <http://www.rfc-editor.org/info/rfc5743>.
 
 Author's Address
 
@@ -236,15 +245,6 @@ Author's Address
 
    Phone: +49 151 120 55791
    Email: lars@netapp.com
-
-
-
-
-
-
-
-
-
 
 
 
