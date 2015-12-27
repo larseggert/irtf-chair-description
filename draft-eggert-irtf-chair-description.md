@@ -89,7 +89,7 @@ A good fraction of the duties of the IRTF Chair are administrative.
 Some of those related to publishing documents on the IRTF RFC Stream, such as
 ensuring sufficient review, so that documents published are of good quality,
 scheduling the required Internet Engineering Steering Group (IESG) review
-{{RFC 5742}}, and following up with the IESG, IANA and the RFC Editor during and
+{{RFC5742}}, and following up with the IESG, IANA and the RFC Editor during and
 after the publication process.
 
 Other administrative duties include reviewing and approving requests from the
@@ -112,8 +112,13 @@ The IRTF Chair regularly interacts with the ADs and the IESG for document
 reviews, IETF meeting agenda planning, and often provides input on various IETF
 efforts and topics. The IRTF Chair also regularly interacts with the IETF
 Administrative Oversight Committee (IAOC) and the IETF Secretariat for meeting
-planning, budgeting and other organizational purposes. A good working
-relationship with these bodies is important.
+planning, budgeting and other organizational purposes. In addition, the IRTF
+Chair also interacts with the Tools Team to provide input on how IETF tools can
+best support the operation of the IRTF. Finally, the IRTF Chair is the owner of
+the IRTF RFC Stream and is hence part of the group that reviews the RFC Editor's
+performance and operation; and engages with the Independent Stream Editor in
+cases where submissions on that RFC Stream have relationships to the IRTF. A
+good working relationship with all these individuals and bodies is important.
 
 
 ## Strategic
@@ -149,4 +154,15 @@ among others.
 The IRTF Chair serves as an "ex officio" member of the IAB {{RFC2850}}, and is
 expected to participate in IAB discussions and activities. This duty benefits
 from expertise that is similar to those of full IAB members {{IABREQ}}, and
-requires a similar time and travel commitment.
+requires a similar time and travel commitment, for example, to attend IAB
+Retreats and relevant IAB workshops.
+
+
+# Security Considerations
+
+This document raises no security considerations.
+
+
+# IANA Considerations
+
+This document has no IANA considerations.
