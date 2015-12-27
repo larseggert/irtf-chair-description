@@ -88,9 +88,9 @@ A good fraction of the duties of the IRTF Chair are administrative.
 
 Some of those related to publishing documents on the IRTF RFC Stream, such as
 ensuring sufficient review, so that documents published are of good quality,
-scheduling the required Internet Engineering Steering Group (IESG) review {{RFC
-5742}}, and following up with the IESG, IANA and the RFC Editor during and after
-the publication process.
+scheduling the required Internet Engineering Steering Group (IESG) review
+{{RFC 5742}}, and following up with the IESG, IANA and the RFC Editor during and
+after the publication process.
 
 Other administrative duties include reviewing and approving requests from the
 RGs for time slots during IETF meetings or interim meetings elsewhere, ensuring
