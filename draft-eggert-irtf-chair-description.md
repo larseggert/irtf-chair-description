@@ -27,6 +27,7 @@ informative:
     RFC2014:
     RFC2850:
     RFC4440:
+    RFC5742:
     RFC5743:
     IABREQ:
         title: "Desired Expertise: Member of the Internet Architecture Board"
