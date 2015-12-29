@@ -166,3 +166,13 @@ This document raises no security considerations.
 # IANA Considerations
 
 This document has no IANA considerations.
+
+
+# Acknowledgments
+
+Robert Sparks and Brian Trammell provided input to this document.
+
+Lars Eggert has received funding from the European Union's Horizon 2020 research
+and innovation program 2014-2018 under grant agreement No. 644866 ("SSICLOPS").
+This document reflects only the authors' views and the European Commission is
+not responsible for any use that may be made of the information it contains.
