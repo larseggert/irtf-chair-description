@@ -29,13 +29,13 @@ informative:
     RFC4440:
     RFC5742:
     RFC5743:
-    IABREQ:
+    IABEXP:
         title: "Desired Expertise: Member of the Internet Architecture Board"
         author:
             org: NomCom 2015
         date: 2015
         target: https://datatracker.ietf.org/nomcom/2015/requirements/#iab-member
-    IESGREQ:
+    IESGEXP:
         title: Generic IESG Member Expertise
         author:
             org: NomCom 2015
@@ -104,7 +104,7 @@ generally operating well.
 
 These administrative duties are very similar to part of the duties of an Area
 Director (AD) in the IETF and require the same set of organizational and
-communication skills {{IESGREQ}}. They also require a regular time commitment
+communication skills {{IESGEXP}}. They also require a regular time commitment
 throughout the year, the ability to attend most of the IETF meetings in person,
 as well as some other related travel.
 
@@ -153,7 +153,7 @@ among others.
 
 The IRTF Chair serves as an "ex officio" member of the IAB {{RFC2850}}, and is
 expected to participate in IAB discussions and activities. This duty benefits
-from expertise that is similar to those of full IAB members {{IABREQ}}, and
+from expertise that is similar to those of full IAB members {{IABEXP}}, and
 requires a similar time and travel commitment, for example, to attend IAB
 Retreats and relevant IAB workshops.
 
