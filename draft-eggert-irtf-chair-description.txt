@@ -4,8 +4,8 @@
 
 Internet Research Task Force (IRTF)                            L. Eggert
 Internet-Draft                                                    NetApp
-Intended status: Informational                         December 27, 2015
-Expires: June 29, 2016
+Intended status: Informational                         December 29, 2015
+Expires: July 1, 2016
 
 
                        The Role of the IRTF Chair
@@ -32,7 +32,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on June 29, 2016.
+   This Internet-Draft will expire on July 1, 2016.
 
 Copyright Notice
 
@@ -53,7 +53,7 @@ Copyright Notice
 
 
 
-Eggert                    Expires June 29, 2016                 [Page 1]
+Eggert                    Expires July 1, 2016                  [Page 1]
 
 Internet-Draft         The Role of the IRTF Chair          December 2015
 
@@ -71,7 +71,8 @@ Table of Contents
      2.3.  IAB Membership  . . . . . . . . . . . . . . . . . . . . .   4
    3.  Security Considerations . . . . . . . . . . . . . . . . . . .   4
    4.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   4
-   5.  Informative References  . . . . . . . . . . . . . . . . . . .   4
+   5.  Acknowledgments . . . . . . . . . . . . . . . . . . . . . . .   4
+   6.  Informative References  . . . . . . . . . . . . . . . . . . .   5
    Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   5
 
 1.  Introduction
@@ -108,8 +109,7 @@ Table of Contents
 
 
 
-
-Eggert                    Expires June 29, 2016                 [Page 2]
+Eggert                    Expires July 1, 2016                  [Page 2]
 
 Internet-Draft         The Role of the IRTF Chair          December 2015
 
@@ -165,7 +165,7 @@ Internet-Draft         The Role of the IRTF Chair          December 2015
 
 
 
-Eggert                    Expires June 29, 2016                 [Page 3]
+Eggert                    Expires July 1, 2016                  [Page 3]
 
 Internet-Draft         The Role of the IRTF Chair          December 2015
 
@@ -211,20 +211,30 @@ Internet-Draft         The Role of the IRTF Chair          December 2015
 
    This document has no IANA considerations.
 
-5.  Informative References
+5.  Acknowledgments
+
+   Robert Sparks and Brian Trammell provided input to this document.
+
+   Lars Eggert has received funding from the European Union's Horizon
+   2020 research and innovation program 2014-2018 under grant agreement
+   No. 644866 ("SSICLOPS").  This document reflects only the authors'
+
+
+
+Eggert                    Expires July 1, 2016                  [Page 4]
+
+Internet-Draft         The Role of the IRTF Chair          December 2015
+
+
+   views and the European Commission is not responsible for any use that
+   may be made of the information it contains.
+
+6.  Informative References
 
    [IABREQ]   NomCom 2015, "Desired Expertise: Member of the Internet
               Architecture Board", 2015,
               <https://datatracker.ietf.org/nomcom/2015/
               requirements/#iab-member>.
-
-
-
-
-Eggert                    Expires June 29, 2016                 [Page 4]
-
-Internet-Draft         The Role of the IRTF Chair          December 2015
-
 
    [IESGREQ]  NomCom 2015, "Generic IESG Member Expertise", 2015,
               <http://trac.tools.ietf.org/group/iesg/trac/wiki/
@@ -267,14 +277,4 @@ Author's Address
 
 
 
-
-
-
-
-
-
-
-
-
-
-Eggert                    Expires June 29, 2016                 [Page 5]
+Eggert                    Expires July 1, 2016                  [Page 5]
