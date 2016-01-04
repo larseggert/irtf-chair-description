@@ -4,8 +4,8 @@
 
 Internet Research Task Force (IRTF)                            L. Eggert
 Internet-Draft                                                    NetApp
-Intended status: Informational                         December 29, 2015
-Expires: July 1, 2016
+Intended status: Informational                          January 04, 2016
+Expires: July 7, 2016
 
 
                        The Role of the IRTF Chair
@@ -32,11 +32,11 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on July 1, 2016.
+   This Internet-Draft will expire on July 7, 2016.
 
 Copyright Notice
 
-   Copyright (c) 2015 IETF Trust and the persons identified as the
+   Copyright (c) 2016 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -53,9 +53,9 @@ Copyright Notice
 
 
 
-Eggert                    Expires July 1, 2016                  [Page 1]
+Eggert                    Expires July 7, 2016                  [Page 1]
 
-Internet-Draft         The Role of the IRTF Chair          December 2015
+Internet-Draft         The Role of the IRTF Chair           January 2016
 
 
    This document may not be modified, and derivative works of it may not
@@ -67,13 +67,13 @@ Table of Contents
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
    2.  Duties  . . . . . . . . . . . . . . . . . . . . . . . . . . .   2
      2.1.  Administrative  . . . . . . . . . . . . . . . . . . . . .   3
-     2.2.  Strategic . . . . . . . . . . . . . . . . . . . . . . . .   3
-     2.3.  IAB Membership  . . . . . . . . . . . . . . . . . . . . .   4
-   3.  Security Considerations . . . . . . . . . . . . . . . . . . .   4
-   4.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   4
-   5.  Acknowledgments . . . . . . . . . . . . . . . . . . . . . . .   4
+     2.2.  Strategic . . . . . . . . . . . . . . . . . . . . . . . .   4
+     2.3.  IAB Membership  . . . . . . . . . . . . . . . . . . . . .   5
+   3.  Security Considerations . . . . . . . . . . . . . . . . . . .   5
+   4.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   5
+   5.  Acknowledgments . . . . . . . . . . . . . . . . . . . . . . .   5
    6.  Informative References  . . . . . . . . . . . . . . . . . . .   5
-   Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   5
+   Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   6
 
 1.  Introduction
 
@@ -109,14 +109,17 @@ Table of Contents
 
 
 
-Eggert                    Expires July 1, 2016                  [Page 2]
+Eggert                    Expires July 7, 2016                  [Page 2]
 
-Internet-Draft         The Role of the IRTF Chair          December 2015
+Internet-Draft         The Role of the IRTF Chair           January 2016
 
 
 2.1.  Administrative
 
    A good fraction of the duties of the IRTF Chair are administrative.
+   Some of them may be permanently or temporarily delegated to other
+   IRSG members, but they ultimately always remain the IRTF Chair's
+   responsibility.
 
    Some of those related to publishing documents on the IRTF RFC Stream,
    such as ensuring sufficient review, so that documents published are
@@ -128,22 +131,45 @@ Internet-Draft         The Role of the IRTF Chair          December 2015
    Other administrative duties include reviewing and approving requests
    from the RGs for time slots during IETF meetings or interim meetings
    elsewhere, ensuring that meeting materials are submitted on schedule,
-   and maintaining the IRTF web site.
+   maintaining the IRTF web site, and - in cooperation with the RG
+   chairs - ensuring that the IETF datatracker correctly reflects the
+   status of the various IRTF-related documents.
 
    The IRTF Chair also needs to appoint, replace and manage the RG
    chairs and the IRSG, and follow the research work of the chartered
    and proposed RGs to a degree that is sufficient to let them develop
    an understanding on whether they are generally operating well.
 
+   The IRTF Chair also defines the operational procedures for the IRTF
+   (in the boundaries defined by [RFC2014]) and the IRSG.  At the
+   moment, these procedures are captures as a set of wiki pages
+   [IRTFWIKI] and it is the duty of the IRTF Chair to refine and update
+   them.
+
+   The IRSG tries to schedule a working dinner during each IETF meeting,
+   and the IRTF Chair is responsible for organizing the agenda and a
+   suitable venue.
+
+   The IRTF Chair writes a regular column for the IETF Journal
+   [IETFJOURNAL] on recent IRTF-related events.
+
    These administrative duties are very similar to part of the duties of
    an Area Director (AD) in the IETF and require the same set of
-   organizational and communication skills [IESGREQ].  They also require
+   organizational and communication skills [IESGEXP].  They also require
    a regular time commitment throughout the year, the ability to attend
    most of the IETF meetings in person, as well as some other related
    travel.
 
    The IRTF Chair regularly interacts with the ADs and the IESG for
    document reviews, IETF meeting agenda planning, and often provides
+
+
+
+Eggert                    Expires July 7, 2016                  [Page 3]
+
+Internet-Draft         The Role of the IRTF Chair           January 2016
+
+
    input on various IETF efforts and topics.  The IRTF Chair also
    regularly interacts with the IETF Administrative Oversight Committee
    (IAOC) and the IETF Secretariat for meeting planning, budgeting and
@@ -161,15 +187,6 @@ Internet-Draft         The Role of the IRTF Chair          December 2015
    Arguably the more important part of the duties of the IRTF Chair are
    strategic, and concern shaping of the purpose and scope of the IRTF,
    by making decisions about which RGs to charter, which RGs to
-
-
-
-
-Eggert                    Expires July 1, 2016                  [Page 3]
-
-Internet-Draft         The Role of the IRTF Chair          December 2015
-
-
    terminate, and which other activities or efforts the IRTF should
    organize or affiliate itself with.
 
@@ -194,12 +211,36 @@ Internet-Draft         The Role of the IRTF Chair          December 2015
    organizational committees, participation in publicly funded
    collaborative research projects, among others.
 
+   The Applied Networking Research Prize (ANRP) is a joint award of the
+   Internet Society (ISOC) and an example of a strategic initiative that
+   since its inception in 2011 now turned into more of an administrative
+   duty.  The IRTF Chair and an ISOC representative pick and chair the
+   ANRP selection committee, which advertises the ANRP, encourages
+   community nominations for the prizes, and reviews nominations and
+   selects prize winners.  To serve in this role, the IRTF Chair also
+
+
+
+Eggert                    Expires July 7, 2016                  [Page 4]
+
+Internet-Draft         The Role of the IRTF Chair           January 2016
+
+
+   relies on strong ties to the academic research community, to identify
+   suitable selection committee members and to encourage nominations for
+   suitable work that is published in a given year.  The selection
+   committee operates similar to a program committee for an academic
+   conference (more specifically, it performs a function similar to the
+   selection of a best paper award).  It is therefore useful if the IRTF
+   Chair has firsthand experience serving on program committees, and
+   ideally, chairing them.
+
 2.3.  IAB Membership
 
    The IRTF Chair serves as an "ex officio" member of the IAB [RFC2850],
    and is expected to participate in IAB discussions and activities.
    This duty benefits from expertise that is similar to those of full
-   IAB members [IABREQ], and requires a similar time and travel
+   IAB members [IABEXP], and requires a similar time and travel
    commitment, for example, to attend IAB Retreats and relevant IAB
    workshops.
 
@@ -213,32 +254,42 @@ Internet-Draft         The Role of the IRTF Chair          December 2015
 
 5.  Acknowledgments
 
-   Robert Sparks and Brian Trammell provided input to this document.
+   Robert Sparks, Brian Trammell and Stephen Farrell provided input to
+   this document.
 
    Lars Eggert has received funding from the European Union's Horizon
    2020 research and innovation program 2014-2018 under grant agreement
    No. 644866 ("SSICLOPS").  This document reflects only the authors'
-
-
-
-Eggert                    Expires July 1, 2016                  [Page 4]
-
-Internet-Draft         The Role of the IRTF Chair          December 2015
-
-
    views and the European Commission is not responsible for any use that
    may be made of the information it contains.
 
 6.  Informative References
 
-   [IABREQ]   NomCom 2015, "Desired Expertise: Member of the Internet
+   [IABEXP]   NomCom 2015, "Desired Expertise: Member of the Internet
               Architecture Board", 2015,
               <https://datatracker.ietf.org/nomcom/2015/
               requirements/#iab-member>.
 
-   [IESGREQ]  NomCom 2015, "Generic IESG Member Expertise", 2015,
+   [IESGEXP]  NomCom 2015, "Generic IESG Member Expertise", 2015,
               <http://trac.tools.ietf.org/group/iesg/trac/wiki/
               GenericExpertise>.
+
+
+
+
+Eggert                    Expires July 7, 2016                  [Page 5]
+
+Internet-Draft         The Role of the IRTF Chair           January 2016
+
+
+   [IETFJOURNAL]
+              Internet Society, "The IETF Journal", n.d.,
+              <http://www.internetsociety.org/publications/
+              ietf-journal>.
+
+   [IRTFWIKI]
+              Internet Research Task Force, "IRTF Wiki", n.d.,
+              <http://trac.tools.ietf.org/group/irtf/trac/wiki>.
 
    [RFC2014]  Weinrib, A. and J. Postel, "IRTF Research Group Guidelines
               and Procedures", BCP 8, RFC 2014, DOI 10.17487/RFC2014,
@@ -277,4 +328,9 @@ Author's Address
 
 
 
-Eggert                    Expires July 1, 2016                  [Page 5]
+
+
+
+
+
+Eggert                    Expires July 7, 2016                  [Page 6]
