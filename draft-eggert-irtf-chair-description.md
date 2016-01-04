@@ -41,6 +41,16 @@ informative:
             org: NomCom 2015
         date: 2015
         target: http://trac.tools.ietf.org/group/iesg/trac/wiki/GenericExpertise
+    IETFJOURNAL:
+        title: The IETF Journal
+        author:
+            org: Internet Society
+        target: http://www.internetsociety.org/publications/ietf-journal
+    IRTFWIKI:
+        title: IRTF Wiki
+        author:
+            org: Internet Research Task Force
+        target: http://trac.tools.ietf.org/group/irtf/trac/wiki
 
 
 --- abstract
@@ -84,7 +94,9 @@ skill set a candidate for the role should ideally have.
 
 ## Administrative
 
-A good fraction of the duties of the IRTF Chair are administrative.
+A good fraction of the duties of the IRTF Chair are administrative. Some of them
+may be permanently or temporarily delegated to other IRSG members, but they
+ultimately always remain the IRTF Chair's responsibility.
 
 Some of those related to publishing documents on the IRTF RFC Stream, such as
 ensuring sufficient review, so that documents published are of good quality,
@@ -94,13 +106,25 @@ after the publication process.
 
 Other administrative duties include reviewing and approving requests from the
 RGs for time slots during IETF meetings or interim meetings elsewhere, ensuring
-that meeting materials are submitted on schedule, and maintaining the IRTF web
-site.
+that meeting materials are submitted on schedule, maintaining the IRTF web site,
+and -- in cooperation with the RG chairs -- ensuring that the IETF datatracker
+correctly reflects the status of the various IRTF-related documents.
 
 The IRTF Chair also needs to appoint, replace and manage the RG chairs and the
 IRSG, and follow the research work of the chartered and proposed RGs to a degree
 that is sufficient to let them develop an understanding on whether they are
 generally operating well.
+
+The IRTF Chair also defines the operational procedures for the IRTF (in the
+boundaries defined by {{RFC2014}}) and the IRSG. At the moment, these procedures
+are captures as a set of [wiki pages](#IRTFWIKI) and it is the duty of the IRTF
+Chair to refine and update them.
+
+The IRSG tries to schedule a working dinner during each IETF meeting, and the
+IRTF Chair is responsible for organizing the agenda and a suitable venue.
+
+The IRTF Chair writes a regular column for the [IETF Journal](#IETFJOURNAL) on
+recent IRTF-related events.
 
 These administrative duties are very similar to part of the duties of an Area
 Director (AD) in the IETF and require the same set of organizational and
@@ -148,6 +172,20 @@ publication record, membership in conference program and organizational
 committees, participation in publicly funded collaborative research projects,
 among others.
 
+The Applied Networking Research Prize (ANRP) is a joint award of the Internet
+Society (ISOC) and an example of a strategic initiative that since its inception
+in 2011 now turned into more of an administrative duty. The IRTF Chair and an
+ISOC representative pick and chair the ANRP selection committee, which
+advertises the ANRP, encourages community nominations for the prizes, and
+reviews nominations and selects prize winners. To serve in this role, the IRTF
+Chair also relies on strong ties to the academic research community, to identify
+suitable selection committee members and to encourage nominations for suitable
+work that is published in a given year. The selection committee operates similar
+to a program committee for an academic conference (more specifically, it
+performs a function similar to the selection of a best paper award). It is
+therefore useful if the IRTF Chair has firsthand experience serving on program
+committees, and ideally, chairing them.
+
 
 ## IAB Membership
 
@@ -170,7 +208,8 @@ This document has no IANA considerations.
 
 # Acknowledgments
 
-Robert Sparks and Brian Trammell provided input to this document.
+Robert Sparks, Brian Trammell and Stephen Farrell provided input to this
+document.
 
 Lars Eggert has received funding from the European Union's Horizon 2020 research
 and innovation program 2014-2018 under grant agreement No. 644866 ("SSICLOPS").
