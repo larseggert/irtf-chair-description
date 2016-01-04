@@ -66,29 +66,29 @@ Table of Contents
 
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
    2.  Duties  . . . . . . . . . . . . . . . . . . . . . . . . . . .   2
-     2.1.  Administrative  . . . . . . . . . . . . . . . . . . . . .   3
-     2.2.  Strategic . . . . . . . . . . . . . . . . . . . . . . . .   4
+     2.1.  Strategic . . . . . . . . . . . . . . . . . . . . . . . .   3
+     2.2.  Administrative  . . . . . . . . . . . . . . . . . . . . .   4
      2.3.  IAB Membership  . . . . . . . . . . . . . . . . . . . . .   5
    3.  Security Considerations . . . . . . . . . . . . . . . . . . .   5
    4.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   5
    5.  Acknowledgments . . . . . . . . . . . . . . . . . . . . . . .   5
-   6.  Informative References  . . . . . . . . . . . . . . . . . . .   5
-   Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   6
+   6.  Informative References  . . . . . . . . . . . . . . . . . . .   6
+   Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   7
 
 1.  Introduction
 
    The Internet Research Task Force (IRTF) focuses on longer term
-   research issues related to the Internet while the parallel
+   research issues related to the Internet while the sister
    organization, the Internet Engineering Task Force (IETF), focuses on
    the shorter term issues of engineering and standards making.
 
-   The IRTF consists of a number of focused and long-term Research
-   Groups (RGs).  These groups work on topics related to Internet
+   The IRTF consists of a number of topical and long-term Research
+   Groups (RGs).  These groups work on issues related to Internet
    protocols, applications, architecture and technology.  RGs have the
-   stable long term membership needed to promote the development of
-   research collaboration and teamwork in exploring research issues.
-   Individual contributors participate in the IRTF, rather than
-   representatives of organizations.
+   stable long term membership which is needed to promote the
+   development of research collaboration and teamwork in exploring
+   research issues.  Individual contributors participate in the IRTF,
+   rather than representatives of organizations.
 
    [RFC2014] details the procedures by which RGs operate.  [RFC4440]
    discusses a view from the Internet Architecture Board (IAB) on the
@@ -114,7 +114,63 @@ Eggert                    Expires July 7, 2016                  [Page 2]
 Internet-Draft         The Role of the IRTF Chair           January 2016
 
 
-2.1.  Administrative
+2.1.  Strategic
+
+   Arguably the most important part of the duties of the IRTF Chair is
+   strategic, and concern shaping of the purpose and scope of the IRTF,
+   by making decisions about which RGs to charter, which RGs to
+   terminate, and which other activities or efforts the IRTF should
+   organize or affiliate itself with.
+
+   For some new RGs, the research and engineering community brings a
+   proposal to the IRTF Chair for discussion.  However, it is common for
+   the IRTF Chair to identify a new area of research that is considered
+   of importance to the Internet, actively motivate people in the
+   research and engineering community to consider the formation of an
+   RG, and help them navigate the process for doing so.
+
+   In order to be able to fulfill this duty, it is important for the
+   IRTF Chair to be involved in both the academic research community as
+   well as engineering or operational communities.  Without a
+   demonstrated history of participation in these often somewhat
+   isolated communities it will be very difficult to identify areas of
+   academic research that are suitable for being brought into the IRTF.
+   A good network of contacts in these communities will be very helpful
+   in identifying and motivating potential RG chairs and participants.
+
+   Involvement in the academic research community can be demonstrated
+   through a publication record, membership in conference program and
+   organizational committees, participation in publicly funded
+   collaborative research projects, among others.
+
+   The Applied Networking Research Prize (ANRP) is a joint award of the
+   Internet Society (ISOC) and an example of a strategic initiative that
+   since its inception in 2011 now turned into more of an administrative
+   duty.  The IRTF Chair and an ISOC representative pick and chair the
+   ANRP selection committee, which advertises the ANRP, encourages
+   community nominations for the prizes, and reviews nominations and
+   selects prize winners.  To serve in this role, the IRTF Chair also
+   relies on strong ties to the academic research community, to identify
+   suitable selection committee members and to encourage nominations for
+   suitable work that is published in a given year.  The selection
+   committee operates similar to a program committee for an academic
+   conference (more specifically, it performs a function similar to the
+   selection of a best paper award).  It is therefore useful if the IRTF
+   Chair has firsthand experience serving on program committees, and
+   ideally, chairing them.
+
+
+
+
+
+
+
+Eggert                    Expires July 7, 2016                  [Page 3]
+
+Internet-Draft         The Role of the IRTF Chair           January 2016
+
+
+2.2.  Administrative
 
    A good fraction of the duties of the IRTF Chair are administrative.
    Some of them may be permanently or temporarily delegated to other
@@ -165,7 +221,7 @@ Internet-Draft         The Role of the IRTF Chair           January 2016
 
 
 
-Eggert                    Expires July 7, 2016                  [Page 3]
+Eggert                    Expires July 7, 2016                  [Page 4]
 
 Internet-Draft         The Role of the IRTF Chair           January 2016
 
@@ -182,59 +238,6 @@ Internet-Draft         The Role of the IRTF Chair           January 2016
    Stream have relationships to the IRTF.  A good working relationship
    with all these individuals and bodies is important.
 
-2.2.  Strategic
-
-   Arguably the more important part of the duties of the IRTF Chair are
-   strategic, and concern shaping of the purpose and scope of the IRTF,
-   by making decisions about which RGs to charter, which RGs to
-   terminate, and which other activities or efforts the IRTF should
-   organize or affiliate itself with.
-
-   For some new RGs, the research and engineering community brings a
-   proposal to the IRTF Chair for discussion.  However, it is common for
-   the IRTF Chair to identify a new area of research that is considered
-   of importance to the Internet, actively motivate people in the
-   research and engineering community to consider the formation of an
-   RG, and help them navigate the process for doing so.
-
-   In order to be able to fulfill this duty, it is important for the
-   IRTF Chair to be involved in both the academic research community as
-   well as engineering or operational communities.  Without a
-   demonstrated history of participation in these often somewhat
-   isolated communities it will be very difficult to identify areas of
-   academic research that are suitable for being brought into the IRTF.
-   A good network of contacts in these communities will be very helpful
-   in identifying and motivating potential RG chairs and participants.
-
-   Involvement in the academic research community can be demonstrated
-   through a publication record, membership in conference program and
-   organizational committees, participation in publicly funded
-   collaborative research projects, among others.
-
-   The Applied Networking Research Prize (ANRP) is a joint award of the
-   Internet Society (ISOC) and an example of a strategic initiative that
-   since its inception in 2011 now turned into more of an administrative
-   duty.  The IRTF Chair and an ISOC representative pick and chair the
-   ANRP selection committee, which advertises the ANRP, encourages
-   community nominations for the prizes, and reviews nominations and
-   selects prize winners.  To serve in this role, the IRTF Chair also
-
-
-
-Eggert                    Expires July 7, 2016                  [Page 4]
-
-Internet-Draft         The Role of the IRTF Chair           January 2016
-
-
-   relies on strong ties to the academic research community, to identify
-   suitable selection committee members and to encourage nominations for
-   suitable work that is published in a given year.  The selection
-   committee operates similar to a program committee for an academic
-   conference (more specifically, it performs a function similar to the
-   selection of a best paper award).  It is therefore useful if the IRTF
-   Chair has firsthand experience serving on program committees, and
-   ideally, chairing them.
-
 2.3.  IAB Membership
 
    The IRTF Chair serves as an "ex officio" member of the IAB [RFC2850],
@@ -242,7 +245,11 @@ Internet-Draft         The Role of the IRTF Chair           January 2016
    This duty benefits from expertise that is similar to those of full
    IAB members [IABEXP], and requires a similar time and travel
    commitment, for example, to attend IAB Retreats and relevant IAB
-   workshops.
+   workshops.  For example, per [IABEXP], "it is desirable for IAB
+   members to have technical leadership experience, operational
+   management backgrounds, research or academic backgrounds,
+   implementation experience, and experience in other bodies involved in
+   Internet governance."
 
 3.  Security Considerations
 
@@ -254,8 +261,8 @@ Internet-Draft         The Role of the IRTF Chair           January 2016
 
 5.  Acknowledgments
 
-   Robert Sparks, Brian Trammell and Stephen Farrell provided input to
-   this document.
+   Robert Sparks, Brian Trammell, Stephen Farrell and Niels ten Oever
+   provided input to this document.
 
    Lars Eggert has received funding from the European Union's Horizon
    2020 research and innovation program 2014-2018 under grant agreement
@@ -263,16 +270,9 @@ Internet-Draft         The Role of the IRTF Chair           January 2016
    views and the European Commission is not responsible for any use that
    may be made of the information it contains.
 
-6.  Informative References
-
-   [IABEXP]   NomCom 2015, "Desired Expertise: Member of the Internet
-              Architecture Board", 2015,
-              <https://datatracker.ietf.org/nomcom/2015/
-              requirements/#iab-member>.
-
-   [IESGEXP]  NomCom 2015, "Generic IESG Member Expertise", 2015,
-              <http://trac.tools.ietf.org/group/iesg/trac/wiki/
-              GenericExpertise>.
+   This document is being prepared in a Github repository [REPO] using
+   Martin Thomson's I-D template [IDTEMPLATE] and Carsten Bormann's
+   kramdown-rfc2629 [KRAMDOWN2629].
 
 
 
@@ -282,6 +282,21 @@ Eggert                    Expires July 7, 2016                  [Page 5]
 Internet-Draft         The Role of the IRTF Chair           January 2016
 
 
+6.  Informative References
+
+   [IABEXP]   NomCom 2015, "Desired Expertise: Member of the Internet
+              Architecture Board", 2015,
+              <https://datatracker.ietf.org/nomcom/2015/
+              requirements/#iab-member>.
+
+   [IDTEMPLATE]
+              Thomson, M., "martinthomson/i-d-template", n.d.,
+              <https://github.com/martinthomson/i-d-template>.
+
+   [IESGEXP]  NomCom 2015, "Generic IESG Member Expertise", 2015,
+              <http://trac.tools.ietf.org/group/iesg/trac/wiki/
+              GenericExpertise>.
+
    [IETFJOURNAL]
               Internet Society, "The IETF Journal", n.d.,
               <http://www.internetsociety.org/publications/
@@ -290,6 +305,13 @@ Internet-Draft         The Role of the IRTF Chair           January 2016
    [IRTFWIKI]
               Internet Research Task Force, "IRTF Wiki", n.d.,
               <http://trac.tools.ietf.org/group/irtf/trac/wiki>.
+
+   [KRAMDOWN2629]
+              Bormann, C., "cabo/kramdown-rfc2629", n.d.,
+              <https://github.com/cabo/kramdown-rfc2629>.
+
+   [REPO]     Eggert, L., "larseggert/irtf-chair-description", n.d.,
+              <https://github.com/larseggert/irtf-chair-description>.
 
    [RFC2014]  Weinrib, A. and J. Postel, "IRTF Research Group Guidelines
               and Procedures", BCP 8, RFC 2014, DOI 10.17487/RFC2014,
@@ -304,6 +326,17 @@ Internet-Draft         The Role of the IRTF Chair           January 2016
               "IAB Thoughts on the Role of the Internet Research Task
               Force (IRTF)", RFC 4440, DOI 10.17487/RFC4440, March 2006,
               <http://www.rfc-editor.org/info/rfc4440>.
+
+
+
+
+
+
+
+Eggert                    Expires July 7, 2016                  [Page 6]
+
+Internet-Draft         The Role of the IRTF Chair           January 2016
+
 
    [RFC5742]  Alvestrand, H. and R. Housley, "IESG Procedures for
               Handling of Independent and IRTF Stream Submissions",
@@ -333,4 +366,27 @@ Author's Address
 
 
 
-Eggert                    Expires July 7, 2016                  [Page 6]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Eggert                    Expires July 7, 2016                  [Page 7]
