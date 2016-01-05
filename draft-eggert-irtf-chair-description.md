@@ -148,14 +148,17 @@ Society (ISOC) and an example of a strategic initiative that since its inception
 in 2011 now turned into more of an administrative duty. The IRTF Chair and an
 ISOC representative pick and chair the ANRP selection committee, which
 advertises the ANRP, encourages community nominations for the prizes, and
-reviews nominations and selects prize winners. To serve in this role, the IRTF
-Chair also relies on strong ties to the academic research community, to identify
-suitable selection committee members and to encourage nominations for suitable
-work that is published in a given year. The selection committee operates similar
-to a program committee for an academic conference (more specifically, it
-performs a function similar to the selection of a best paper award). It is
-therefore useful if the IRTF Chair has firsthand experience serving on program
-committees, and ideally, chairing them.
+reviews nominations and selects prize winners. The IRTF Chair and the ISOC
+representative also mentor the ANRP winners, who are often IETF newcomers, and
+introduce them to other attendees who may have an interest in their work.
+
+Chairmanship of the ANRP selection committee also relies on strong ties to the
+academic research community, to identify suitable selection committee members
+and to encourage nominations for suitable work that is published in a given
+year. The selection committee operates similar to a program committee for an
+academic conference (more specifically, it performs a function similar to the
+selection of a best paper award). It is therefore useful if the IRTF Chair has
+firsthand experience serving on program committees, and ideally, chairing them.
 
 
 ## Administrative
@@ -183,7 +186,7 @@ operating well.
 
 The IRTF Chair also defines the operational procedures for the IRTF (in the
 boundaries defined by {{RFC2014}}) and the IRSG. At the moment, these procedures
-are captures as a set of [wiki pages](#IRTF-WIKI) and it is the duty of the IRTF
+are captured as a set of [wiki pages](#IRTF-WIKI) and it is the duty of the IRTF
 Chair to refine and update these descriptions as procedures evolve. When process
 questions on the IRSG or in an RG arise (e.g., on IPR, liaison statements,
 consensus procedures, copyright, plagiarism, document publication, etc.), the
@@ -194,7 +197,8 @@ external party for further consultation.
 The IRSG tries to schedule a working dinner during each IETF meeting, and the
 IRTF Chair is responsible for organizing the agenda and a suitable venue.
 
-The IRTF Chair writes a regular column for the [IETF Journal](#IETF-JOURNAL) on
+The IRTF Chair provides a status report on the IRTF to the IAB on a monthly
+basis, and also writes a regular column for the [IETF Journal](#IETF-JOURNAL) on
 recent IRTF-related events.
 
 During each IETF meeting, the IRTF Chair is responsible for organizing and
@@ -257,7 +261,7 @@ This document has no IANA considerations.
 # Acknowledgments
 
 Robert Sparks, Brian Trammell, Stephen Farrell, Niels ten Oever, Dirk Kutscher,
-Aaron Falk and Jana Iyengar provided input to this document.
+Aaron Falk, Jana Iyengar and Mat Ford provided input to this document.
 
 Lars Eggert has received funding from the European Union's Horizon 2020 research
 and innovation program 2014-2018 under grant agreement No. 644866 ("SSICLOPS").
