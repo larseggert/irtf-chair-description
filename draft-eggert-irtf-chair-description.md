@@ -29,29 +29,29 @@ informative:
     RFC4440:
     RFC5742:
     RFC5743:
-    IABEXP:
+    IAB-EXP:
         title: "Desired Expertise: Member of the Internet Architecture Board"
         author:
             org: NomCom 2015
         date: 2015
         target: https://datatracker.ietf.org/nomcom/2015/requirements/#iab-member
-    IESGEXP:
+    IESG-EXP:
         title: Generic IESG Member Expertise
         author:
             org: NomCom 2015
         date: 2015
         target: http://trac.tools.ietf.org/group/iesg/trac/wiki/GenericExpertise
-    IETFJOURNAL:
+    IETF-JOURNAL:
         title: The IETF Journal
         author:
             org: Internet Society
         target: http://www.internetsociety.org/publications/ietf-journal
-    IRTFWIKI:
+    IRTF-WIKI:
         title: IRTF Wiki
         author:
             org: Internet Research Task Force
         target: http://trac.tools.ietf.org/group/irtf/trac/wiki
-    IDTEMPLATE:
+    ID-TEMPLATE:
         title: martinthomson/i-d-template
         author:
             ins: M. Thomson
@@ -61,7 +61,7 @@ informative:
         author:
             ins: L. Eggert
         target: https://github.com/larseggert/irtf-chair-description
-    KRAMDOWN2629:
+    KRAMDOWN-RFC2629:
         title: cabo/kramdown-rfc2629
         author:
             ins: C. Bormann
@@ -112,7 +112,9 @@ skill set a candidate for the role should ideally have.
 Arguably the most important part of the duties of the IRTF Chair is strategic,
 and concern shaping of the purpose and scope of the IRTF, by making decisions
 about which RGs to charter, which RGs to terminate, and which other activities
-or efforts the IRTF should organize or affiliate itself with.
+or efforts the IRTF should organize or affiliate itself with in order to further
+its charter and increase the interaction and collaboration between network
+research, engineering, operations and standardization.
 
 For some new RGs, the research and engineering community brings a proposal to
 the IRTF Chair for discussion. However, it is common for the IRTF Chair to
@@ -133,6 +135,13 @@ Involvement in the academic research community can be demonstrated through a
 publication record, membership in conference program and organizational
 committees, participation in publicly funded collaborative research projects,
 among others.
+
+In addition to chartering new RGs, it is equally important for the IRTF to end
+RGs that have run out of energy, are focused on issues no longer considered
+important for the Internet, or are otherwise not operating well. Careful
+communication and good people skills are essential in order to explain the
+reasons for concluding an RG. The same skill set is also useful when explaining
+to proponents of a new RG why their request is being denied.
 
 The Applied Networking Research Prize (ANRP) is a joint award of the Internet
 Society (ISOC) and an example of a strategic initiative that since its inception
@@ -167,25 +176,37 @@ that meeting materials are submitted on schedule, maintaining the IRTF web site,
 and -- in cooperation with the RG chairs -- ensuring that the IETF datatracker
 correctly reflects the status of the various IRTF-related documents.
 
-The IRTF Chair also needs to appoint, replace and manage the RG chairs and the
-IRSG, and follow the research work of the chartered and proposed RGs to a degree
-that is sufficient to let them develop an understanding on whether they are
-generally operating well.
+The IRTF Chair appoints, replaces and manages the RG chairs and the IRSG, and
+follows the research work of the chartered and proposed RGs to a degree that is
+sufficient to let them develop an understanding on whether they are generally
+operating well.
 
 The IRTF Chair also defines the operational procedures for the IRTF (in the
 boundaries defined by {{RFC2014}}) and the IRSG. At the moment, these procedures
-are captures as a set of [wiki pages](#IRTFWIKI) and it is the duty of the IRTF
-Chair to refine and update them.
+are captures as a set of [wiki pages](#IRTF-WIKI) and it is the duty of the IRTF
+Chair to refine and update these descriptions as procedures evolve. When process
+questions on the IRSG or in an RG arise (e.g., on IPR, liaison statements,
+consensus procedures, copyright, plagiarism, document publication, etc.), the
+IRTF Chair is frequently consulted and needs to have sufficient familiarity in
+the area to provide a definitive answer, or at least be able to identify an
+external party for further consultation.
 
 The IRSG tries to schedule a working dinner during each IETF meeting, and the
 IRTF Chair is responsible for organizing the agenda and a suitable venue.
 
-The IRTF Chair writes a regular column for the [IETF Journal](#IETFJOURNAL) on
+The IRTF Chair writes a regular column for the [IETF Journal](#IETF-JOURNAL) on
 recent IRTF-related events.
+
+During each IETF meeting, the IRTF Chair is responsible for organizing and
+chairing the "IRTF Open Meeting", during which topics related to the IRTF are
+being presented and discussed. This includes a report by the IRTF Chair on the
+status of the IRTF and its RGs (an abbreviated version of this report is also
+usually given during the IETF Technical Plenary) as well as other presentations
+from RGs, ANRP prize winners, individuals wishing to propose new RGS, or others.
 
 These administrative duties are very similar to part of the duties of an Area
 Director (AD) in the IETF and require the same set of organizational and
-communication skills {{IESGEXP}}. They also require a regular time commitment
+communication skills {{IESG-EXP}}. They also require a regular time commitment
 throughout the year, the ability to attend most of the IETF meetings in person,
 as well as some other related travel.
 
@@ -199,19 +220,28 @@ best support the operation of the IRTF. Finally, the IRTF Chair is the owner of
 the IRTF RFC Stream and is hence part of the group that reviews the RFC Editor's
 performance and operation; and engages with the Independent Stream Editor in
 cases where submissions on that RFC Stream have relationships to the IRTF. A
-good working relationship with all these individuals and bodies is important.
+good understanding of the purpose and procedures of these different bodies and a
+good working relationship with the individuals serving on them is important.
 
 
 ## IAB Membership
 
 The IRTF Chair serves as an "ex officio" member of the IAB {{RFC2850}}, and is
-expected to participate in IAB discussions and activities. This duty benefits
-from expertise that is similar to those of full IAB members {{IABEXP}}, and
-requires a similar time and travel commitment, for example, to attend IAB
-Retreats and relevant IAB workshops. For example, per {{IABEXP}}, "it is
-desirable for IAB members to have technical leadership experience, operational
-management backgrounds, research or academic backgrounds, implementation
-experience, and experience in other bodies involved in Internet governance."
+expected to participate in IAB discussions and activities alongside the
+NomCom-appointed IAB members.
+
+This duty benefits from expertise that is similar to those of full IAB members
+{{IAB-EXP}}, and requires a similar time and travel commitment, for example, to
+attend IAB retreats, relevant IAB workshops as well as other meetings the IAB is
+participating in or organizing. Per {{IAB-EXP}}, "it is desirable for IAB members
+to have technical leadership experience, operational management backgrounds,
+research or academic backgrounds, implementation experience, and experience in
+other bodies involved in Internet governance."
+
+The IRTF Chair frequently provides input to "birds-of-a-feather" (BoF) sessions,
+either as an ex officio IAB member (i.e., as a "BoF shepherd") or because it may
+be unclear whether a proposed effort should be started as an IETF WG or an IRTF
+RG.
 
 
 # Security Considerations
@@ -226,8 +256,8 @@ This document has no IANA considerations.
 
 # Acknowledgments
 
-Robert Sparks, Brian Trammell, Stephen Farrell and Niels ten Oever provided
-input to this document.
+Robert Sparks, Brian Trammell, Stephen Farrell, Niels ten Oever, Dirk Kutscher,
+Aaron Falk and Jana Iyengar provided input to this document.
 
 Lars Eggert has received funding from the European Union's Horizon 2020 research
 and innovation program 2014-2018 under grant agreement No. 644866 ("SSICLOPS").
@@ -235,5 +265,5 @@ This document reflects only the authors' views and the European Commission is
 not responsible for any use that may be made of the information it contains.
 
 This document is being prepared in a [Github repository](#REPO) using Martin
-Thomson's [I-D template](#IDTEMPLATE) and Carsten Bormann's
-[kramdown-rfc2629](#KRAMDOWN2629).
+Thomson's [I-D template](#ID-TEMPLATE) and Carsten Bormann's
+[kramdown-rfc2629](#KRAMDOWN-RFC2629).
