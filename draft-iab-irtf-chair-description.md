@@ -2,10 +2,10 @@
 coding: utf-8
 
 title: The Role of the IRTF Chair
-docname: draft-eggert-irtf-chair-description-latest
+docname: draft-iab-irtf-chair-description-latest
 category: info
-wg: Internet Research Task Force (IRTF)
-ipr: noModificationTrust200902
+wg: Internet Architecture Board (IAB)
+ipr: trust200902
 
 stand_alone: yes
 pi: [toc, sortrefs, symrefs, comments]
