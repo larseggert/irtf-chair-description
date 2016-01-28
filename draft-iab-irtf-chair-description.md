@@ -95,10 +95,18 @@ view from the Internet Architecture Board (IAB) on the IRTF and its relationship
 to the IETF. The RFC Editor publishes documents from the IRTF and its RGs on the
 IRTF Stream {{RFC5743}}.
 
-The IRTF Chair manages the IRTF in consultation with the Internet Research
-Steering Group (IRSG). The IRSG membership includes the IRTF Chair, the chairs
-of the various RGs and other individuals ("members at large") from the research
-community selected by the IRTF Chair.
+The IRTF Chair is appointed by the IAB {{RFC2014}} for two-year terms and
+manages the IRTF in consultation with the Internet Research Steering Group
+(IRSG) and - for some types of decisions - the IAB. The IRSG membership includes
+the IRTF Chair, the chairs of the various RGs and other individuals ("members at
+large") from the research community selected by the IRTF Chair.
+
+There is no general appeals process defined for the IRTF. However, {{RFC2014}}
+states that in the case when an RG disagrees with the IRTF Chair's decision to
+close the group, it can appeal to the IAB. Since the IRTF Chair serves at the
+discretion of the IAB, it has been current practice to generalize this special
+case in {{RFC2014}}: any grievances related to the IRTF Chair can be taken to
+the IAB, and it takes appropriate measures.
 
 
 # Duties
@@ -261,7 +269,8 @@ This document has no IANA considerations.
 # Acknowledgments
 
 Robert Sparks, Brian Trammell, Stephen Farrell, Niels ten Oever, Dirk Kutscher,
-Aaron Falk, Jana Iyengar and Mat Ford provided input to this document.
+Aaron Falk, Jana Iyengar, Mat Ford, Adrian Farrel and Barry Leiba provided
+suggestions that improved this document.
 
 Lars Eggert has received funding from the European Union's Horizon 2020 research
 and innovation program 2014-2018 under grant agreement No. 644866 ("SSICLOPS").
