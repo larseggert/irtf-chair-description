@@ -230,7 +230,7 @@ planning, budgeting and other organizational purposes. In addition, the IRTF
 Chair also interacts with the Tools Team to provide input on how IETF tools can
 best support the operation of the IRTF. Finally, the IRTF Chair is the owner of
 the IRTF RFC Stream and is hence part of the group that reviews the RFC Editor's
-performance and operation; and engages with the Independent Stream Editor in
+performance and operation; and engages with the Independent Submission Editor in
 cases where submissions on that RFC Stream have relationships to the IRTF. A
 good understanding of the purpose and procedures of these different bodies and a
 good working relationship with the individuals serving on them is important.
@@ -269,8 +269,8 @@ This document has no IANA considerations.
 # Acknowledgments
 
 Robert Sparks, Brian Trammell, Stephen Farrell, Niels ten Oever, Dirk Kutscher,
-Aaron Falk, Jana Iyengar, Mat Ford, Adrian Farrel and Barry Leiba provided
-suggestions that improved this document.
+Aaron Falk, Jana Iyengar, Mat Ford, Adrian Farrel, Barry Leiba and Dave Thaler
+provided suggestions that improved this document.
 
 Lars Eggert has received funding from the European Union's Horizon 2020 research
 and innovation program 2014-2018 under grant agreement No. 644866 ("SSICLOPS").
