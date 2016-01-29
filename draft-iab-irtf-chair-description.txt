@@ -4,8 +4,8 @@
 
 Internet Architecture Board (IAB)                              L. Eggert
 Internet-Draft                                                    NetApp
-Intended status: Informational                          January 28, 2016
-Expires: July 31, 2016
+Intended status: Informational                          January 29, 2016
+Expires: August 1, 2016
 
 
                        The Role of the IRTF Chair
@@ -32,7 +32,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on July 31, 2016.
+   This Internet-Draft will expire on August 1, 2016.
 
 Copyright Notice
 
@@ -53,7 +53,7 @@ Copyright Notice
 
 
 
-Eggert                    Expires July 31, 2016                 [Page 1]
+Eggert                   Expires August 1, 2016                 [Page 1]
 
 Internet-Draft         The Role of the IRTF Chair           January 2016
 
@@ -109,7 +109,7 @@ Table of Contents
 
 
 
-Eggert                    Expires July 31, 2016                 [Page 2]
+Eggert                   Expires August 1, 2016                 [Page 2]
 
 Internet-Draft         The Role of the IRTF Chair           January 2016
 
@@ -165,7 +165,7 @@ Internet-Draft         The Role of the IRTF Chair           January 2016
 
 
 
-Eggert                    Expires July 31, 2016                 [Page 3]
+Eggert                   Expires August 1, 2016                 [Page 3]
 
 Internet-Draft         The Role of the IRTF Chair           January 2016
 
@@ -221,7 +221,7 @@ Internet-Draft         The Role of the IRTF Chair           January 2016
 
 
 
-Eggert                    Expires July 31, 2016                 [Page 4]
+Eggert                   Expires August 1, 2016                 [Page 4]
 
 Internet-Draft         The Role of the IRTF Chair           January 2016
 
@@ -266,18 +266,18 @@ Internet-Draft         The Role of the IRTF Chair           January 2016
    best support the operation of the IRTF.  Finally, the IRTF Chair is
    the owner of the IRTF RFC Stream and is hence part of the group that
    reviews the RFC Editor's performance and operation; and engages with
-   the Independent Stream Editor in cases where submissions on that RFC
-   Stream have relationships to the IRTF.  A good understanding of the
-   purpose and procedures of these different bodies and a good working
-   relationship with the individuals serving on them is important.
+   the Independent Submission Editor in cases where submissions on that
+   RFC Stream have relationships to the IRTF.  A good understanding of
+   the purpose and procedures of these different bodies and a good
+   working relationship with the individuals serving on them is
+   important.
 
 
 
 
 
 
-
-Eggert                    Expires July 31, 2016                 [Page 5]
+Eggert                   Expires August 1, 2016                 [Page 5]
 
 Internet-Draft         The Role of the IRTF Chair           January 2016
 
@@ -313,8 +313,9 @@ Internet-Draft         The Role of the IRTF Chair           January 2016
 5.  Acknowledgments
 
    Robert Sparks, Brian Trammell, Stephen Farrell, Niels ten Oever, Dirk
-   Kutscher, Aaron Falk, Jana Iyengar, Mat Ford, Adrian Farrel and Barry
-   Leiba provided suggestions that improved this document.
+   Kutscher, Aaron Falk, Jana Iyengar, Mat Ford, Adrian Farrel, Barry
+   Leiba and Dave Thaler provided suggestions that improved this
+   document.
 
    Lars Eggert has received funding from the European Union's Horizon
    2020 research and innovation program 2014-2018 under grant agreement
@@ -332,8 +333,7 @@ Internet-Draft         The Role of the IRTF Chair           January 2016
 
 
 
-
-Eggert                    Expires July 31, 2016                 [Page 6]
+Eggert                   Expires August 1, 2016                 [Page 6]
 
 Internet-Draft         The Role of the IRTF Chair           January 2016
 
@@ -389,7 +389,7 @@ Internet-Draft         The Role of the IRTF Chair           January 2016
 
 
 
-Eggert                    Expires July 31, 2016                 [Page 7]
+Eggert                   Expires August 1, 2016                 [Page 7]
 
 Internet-Draft         The Role of the IRTF Chair           January 2016
 
@@ -445,4 +445,4 @@ Author's Address
 
 
 
-Eggert                    Expires July 31, 2016                 [Page 8]
+Eggert                   Expires August 1, 2016                 [Page 8]
