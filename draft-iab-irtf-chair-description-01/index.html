@@ -1,0 +1,506 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head profile="http://www.w3.org/2006/03/hcard http://dublincore.org/documents/2008/08/04/dc-html/">
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+
+  <title>The Role of the IRTF Chair</title>
+
+  <style type="text/css">/*<![CDATA[*/
+@viewport {
+  zoom: 1.0;
+  width: extend-to-zoom;
+}
+@-ms-viewport {
+  width: extend-to-zoom;
+  zoom: 1.0;
+}
+
+@media screen and (min-width: 1024px) {
+  ul.toc, #rfc\.toc {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    right: calc(50vw - 500px);
+    width: 300px;
+    padding: 0 1em;
+    z-index: 1;
+  }
+  #rfc\.toc {
+    top: 16px;
+  }
+  ul.toc {
+    top: 80px;
+    overflow: auto;
+  }
+
+  body {
+    padding-left: 1.5em;
+    padding-right: 29em;
+  }
+}
+
+body {
+  font: 15px "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #333;
+  font-size-adjust: 0.5;
+  line-height: 130%;
+  margin: 2.5em auto;
+  max-width: 724px;
+}
+
+.title, .filename, h1, h2, h3, h4 {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size-adjust: 0.5;
+  font-weight: 500;
+  color: #333;
+  line-height: 100%;
+  margin: 0.8em 0 0.3em;
+}
+.title { font-size: 36px; }
+h1 { font-size: 30px; }
+h2 { font-size: 24px; }
+h3, h4 { font-size: 18px; }
+h1 a[href], h2 a[href], h3 a[href], h4 a[href] {
+  color: #333;
+}
+
+ul.toc li {
+  list-style: none;
+  text-indent: -2.5em;
+  padding-left: 2.5em;
+  padding-bottom: 5px;
+  margin: 0;
+}
+ul.toc, ul.toc ul {
+  margin: 0 0 0 1.5em;
+}
+
+table {
+  margin-left: 0em;
+  border-collapse: collapse;
+}
+th {
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+}
+td {
+  border-top: 1px solid #ddd;
+  vertical-align: top;
+}
+tr:nth-child(2n+1) > td,
+tr:nth-child(2n+1) > th {
+  background-color: #f9f9f9;
+}
+td.reference {
+  max-width: 200px;
+  border-top: none;
+  padding-right: 1em;
+}
+.right {
+  text-align: right;
+}
+
+
+table.header {
+  width: 100%;
+}
+table.header td {
+  border: none;
+  background-color: transparent;
+  color: black;
+}
+.filename {
+  color: rgb(119, 119, 119);
+  font-size: 23px;
+  font-weight: normal;
+  height: auto;
+  line-height: 100%;
+}
+#rfc\.abstract+p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 130%;
+}
+
+samp, tt, code, pre {
+  font: 11pt consolas, monospace;
+  font-size-adjust: none;
+}
+pre {
+  background-color: #eee;
+  border: 1px solid #ddd;
+  overflow-x: auto;
+  padding: 5px;
+  margin: 5px;
+}
+.figure {
+  font-style: italic;
+  margin: 0 1.5em;
+}
+
+address {
+  margin: 10px 0 0;
+}
+.vcard {
+  font-style: normal;
+}
+.vcardline {
+  display: block;
+}
+.vcardline .fn {
+  font-weight: bold;
+}
+.vcardline .hidden {
+  display: none;
+}
+
+dl {
+  margin-left: 1em;
+}
+dl.dl-horizontal: {
+  margin-left: 0;
+}
+dl > dt {
+  float: left;
+  margin-right: 1em;
+}
+dl.nohang > dt {
+  float: none;
+}
+dl > dd {
+  margin-bottom: .5em;
+}
+dl.compact > dd {
+  margin-bottom: 0em;
+}
+dl > dd > dl {
+  margin-top: 0.5em;
+  margin-bottom: 0em;
+}
+ul.empty {
+  list-style-type: none;
+}
+ul.empty li {
+  margin-top: .5em;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+a {
+  text-decoration: none;
+}
+a[href] {
+  color: #2a6496;
+}
+a[href]:hover {
+  background-color: #eee;
+}
+
+ol, ul, li, p {
+  padding: 0;
+  margin: 0.5em 0 0.5em 2em;
+}
+li, p {
+  margin-left: 0;
+}
+
+.github-fork-ribbon-wrapper {
+  display: none;
+}
+@media screen and (min-width: 800px) {
+  /* "Fork me on GitHub" CSS ribbon based on
+   * https://github.com/simonwhitaker/github-fork-ribbon-css
+   */
+  .github-fork-ribbon {
+    position: absolute;
+    padding: 2px 0;
+    background-color: #a00;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+    font: 700 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    pointer-events: auto;
+
+    top: 38px;
+    right: -45px;
+
+    transform: rotate(45deg);
+  }
+
+  .github-fork-ribbon a[href],
+  .github-fork-ribbon a[href]:hover {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.5);
+    text-align: center;
+
+    width: 190px;
+    line-height: 18px;
+
+    display: inline-block;
+    padding: 2px 0;
+
+    border: 1.5px dotted #fff;
+    border-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .github-fork-ribbon-wrapper {
+    display: block;
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    overflow: hidden;
+    top: 0; right: 0;
+    z-index: 2;
+    pointer-events: none;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .github-fork-ribbon-wrapper {
+    position: fixed;
+  }
+  /*]]>*/</style>
+
+  <link href="#rfc.toc" rel="Contents"/>
+<link href="#rfc.section.1" rel="Chapter" title="1 Introduction"/>
+<link href="#rfc.section.2" rel="Chapter" title="2 Duties"/>
+<link href="#rfc.section.2.1" rel="Chapter" title="2.1 Strategic"/>
+<link href="#rfc.section.2.2" rel="Chapter" title="2.2 Administrative"/>
+<link href="#rfc.section.2.3" rel="Chapter" title="2.3 IAB Membership"/>
+<link href="#rfc.section.3" rel="Chapter" title="3 Security Considerations"/>
+<link href="#rfc.section.4" rel="Chapter" title="4 IANA Considerations"/>
+<link href="#rfc.section.5" rel="Chapter" title="5 Acknowledgments"/>
+<link href="#rfc.references" rel="Chapter" title="6 Informative References"/>
+<link href="#rfc.authors" rel="Chapter"/>
+
+
+  <meta name="generator" content="xml2rfc version 2.5.1 - http://tools.ietf.org/tools/xml2rfc" />
+  <link rel="schema.dct" href="http://purl.org/dc/terms/" />
+
+  <meta name="dct.creator" content="Eggert, L." />
+  <meta name="dct.identifier" content="urn:ietf:id:draft-iab-irtf-chair-description-latest" />
+  <meta name="dct.issued" scheme="ISO8601" content="2016-1-31" />
+  <meta name="dct.abstract" content="This document briefly describes the role of the Chair of the Internet Research Task Force (IRTF), discusses its duties and outlines the skill set a candidate for the role should ideally have." />
+  <meta name="description" content="This document briefly describes the role of the Chair of the Internet Research Task Force (IRTF), discusses its duties and outlines the skill set a candidate for the role should ideally have." />
+
+</head>
+
+<body>
+
+  <table class="header">
+    <tbody>
+    
+    	<tr>
+  <td class="left">Internet Architecture Board (IAB)</td>
+  <td class="right">L. Eggert</td>
+</tr>
+<tr>
+  <td class="left">Internet-Draft</td>
+  <td class="right">NetApp</td>
+</tr>
+<tr>
+  <td class="left">Intended status: Informational</td>
+  <td class="right">January 31, 2016</td>
+</tr>
+<tr>
+  <td class="left">Expires: August 3, 2016</td>
+  <td class="right"></td>
+</tr>
+
+    	
+    </tbody>
+  </table>
+
+  <p class="title">The Role of the IRTF Chair<br />
+  <span class="filename">draft-iab-irtf-chair-description-latest</span></p>
+  
+  <h1 id="rfc.abstract">
+  <a href="#rfc.abstract">Abstract</a>
+</h1>
+<p>This document briefly describes the role of the Chair of the Internet Research Task Force (IRTF), discusses its duties and outlines the skill set a candidate for the role should ideally have.</p>
+<h1 id="rfc.status">
+  <a href="#rfc.status">Status of This Memo</a>
+</h1>
+<p>This Internet-Draft is submitted in full conformance with the provisions of BCP 78 and BCP 79.</p>
+<p>Internet-Drafts are working documents of the Internet Engineering Task Force (IETF).  Note that other groups may also distribute working documents as Internet-Drafts.  The list of current Internet-Drafts is at http://datatracker.ietf.org/drafts/current/.</p>
+<p>Internet-Drafts are draft documents valid for a maximum of six months and may be updated, replaced, or obsoleted by other documents at any time.  It is inappropriate to use Internet-Drafts as reference material or to cite them other than as "work in progress."</p>
+<p>This Internet-Draft will expire on August 3, 2016.</p>
+<h1 id="rfc.copyrightnotice">
+  <a href="#rfc.copyrightnotice">Copyright Notice</a>
+</h1>
+<p>Copyright (c) 2016 IETF Trust and the persons identified as the document authors.  All rights reserved.</p>
+<p>This document is subject to BCP 78 and the IETF Trust's Legal Provisions Relating to IETF Documents (http://trustee.ietf.org/license-info) in effect on the date of publication of this document.  Please review these documents carefully, as they describe your rights and restrictions with respect to this document.  Code Components extracted from this document must include Simplified BSD License text as described in Section 4.e of the Trust Legal Provisions and are provided without warranty as described in the Simplified BSD License.</p>
+
+  
+  <hr class="noprint" />
+  <h1 class="np" id="rfc.toc"><a href="#rfc.toc">Table of Contents</a></h1>
+  <ul class="toc">
+
+  	<li>1.   <a href="#rfc.section.1">Introduction</a></li>
+<li>2.   <a href="#rfc.section.2">Duties</a></li>
+<ul><li>2.1.   <a href="#rfc.section.2.1">Strategic</a></li>
+<li>2.2.   <a href="#rfc.section.2.2">Administrative</a></li>
+<li>2.3.   <a href="#rfc.section.2.3">IAB Membership</a></li>
+</ul><li>3.   <a href="#rfc.section.3">Security Considerations</a></li>
+<li>4.   <a href="#rfc.section.4">IANA Considerations</a></li>
+<li>5.   <a href="#rfc.section.5">Acknowledgments</a></li>
+<li>6.   <a href="#rfc.references">Informative References</a></li>
+<li><a href="#rfc.authors">Author's Address</a></li>
+
+
+  </ul>
+
+  <h1 id="rfc.section.1"><a href="#rfc.section.1">1.</a> <a href="#introduction" id="introduction">Introduction</a></h1>
+<p id="rfc.section.1.p.1">The Internet Research Task Force (IRTF) focuses on longer term research issues related to the Internet while the sister organization, the Internet Engineering Task Force (IETF), focuses on the shorter term issues of engineering and standards making.</p>
+<p id="rfc.section.1.p.2">The IRTF consists of a number of topical and long-term Research Groups (RGs).  These groups work on issues related to Internet protocols, applications, architecture and technology. RGs have the stable long term membership which is needed to promote the development of research collaboration and teamwork in exploring research issues. Individual contributors participate in the IRTF, rather than representatives of organizations.</p>
+<p><a href="#RFC2014">[RFC2014]</a> details the procedures by which RGs operate. <a href="#RFC4440">[RFC4440]</a> discusses a view from the Internet Architecture Board (IAB) on the IRTF and its relationship to the IETF. The RFC Editor publishes documents from the IRTF and its RGs on the IRTF Stream <a href="#RFC5743">[RFC5743]</a>.</p>
+<p id="rfc.section.1.p.4">The IRTF Chair is appointed by the IAB <a href="#RFC2014">[RFC2014]</a> for two-year terms and manages the IRTF in consultation with the Internet Research Steering Group (IRSG) and - for some types of decisions - the IAB. The IRSG membership includes the IRTF Chair, the chairs of the various RGs and other individuals (&#8220;members at large&#8221;) from the research community selected by the IRTF Chair.</p>
+<p id="rfc.section.1.p.5">There is no general appeals process defined for the IRTF. However, <a href="#RFC2014">[RFC2014]</a> states that in the case when an RG disagrees with the IRTF Chair&#8217;s decision to close the group, it can appeal to the IAB. Since the IRTF Chair serves at the discretion of the IAB, it has been current practice to generalize this special case in <a href="#RFC2014">[RFC2014]</a>: any grievances related to the IRTF Chair can be taken to the IAB, and it takes appropriate measures.</p>
+<h1 id="rfc.section.2"><a href="#rfc.section.2">2.</a> <a href="#duties" id="duties">Duties</a></h1>
+<p id="rfc.section.2.p.1">This section discusses the various duties of the IRTF chair and outlines the skill set a candidate for the role should ideally have.</p>
+<h1 id="rfc.section.2.1"><a href="#rfc.section.2.1">2.1.</a> <a href="#strategic" id="strategic">Strategic</a></h1>
+<p id="rfc.section.2.1.p.1">Arguably the most important part of the duties of the IRTF Chair is strategic, and concern shaping of the purpose and scope of the IRTF, by making decisions about which RGs to charter, which RGs to terminate, and which other activities or efforts the IRTF should organize or affiliate itself with in order to further its charter and increase the interaction and collaboration between network research, engineering, operations and standardization.</p>
+<p id="rfc.section.2.1.p.2">For some new RGs, the research and engineering community brings a proposal to the IRTF Chair for discussion. However, it is common for the IRTF Chair to identify a new area of research that is considered of importance to the Internet, actively motivate people in the research and engineering community to consider the formation of an RG, and help them navigate the process for doing so.</p>
+<p id="rfc.section.2.1.p.3">In order to be able to fulfill this duty, it is important for the IRTF Chair to be involved in both the academic research community as well as engineering or operational communities. Without a demonstrated history of participation in these often somewhat isolated communities it will be very difficult to identify areas of academic research that are suitable for being brought into the IRTF. A good network of contacts in these communities will be very helpful in identifying and motivating potential RG chairs and participants.</p>
+<p id="rfc.section.2.1.p.4">Involvement in the academic research community can be demonstrated through a publication record, membership in conference program and organizational committees, participation in publicly funded collaborative research projects, among others.</p>
+<p id="rfc.section.2.1.p.5">In addition to chartering new RGs, it is equally important for the IRTF to end RGs that have run out of energy, are focused on issues no longer considered important for the Internet, or are otherwise not operating well. Careful communication and good people skills are essential in order to explain the reasons for concluding an RG. The same skill set is also useful when explaining to proponents of a new RG why their request is being denied.</p>
+<p id="rfc.section.2.1.p.6">The Applied Networking Research Prize (ANRP) is a joint award of the Internet Society (ISOC) and an example of a strategic initiative that since its inception in 2011 now turned into more of an administrative duty. The IRTF Chair and an ISOC representative pick and chair the ANRP selection committee, which advertises the ANRP, encourages community nominations for the prizes, and reviews nominations and selects prize winners. The IRTF Chair and the ISOC representative also mentor the ANRP winners, who are often IETF newcomers, and introduce them to other attendees who may have an interest in their work.</p>
+<p id="rfc.section.2.1.p.7">Chairmanship of the ANRP selection committee also relies on strong ties to the academic research community, to identify suitable selection committee members and to encourage nominations for suitable work that is published in a given year. The selection committee operates similar to a program committee for an academic conference (more specifically, it performs a function similar to the selection of a best paper award). It is therefore useful if the IRTF Chair has firsthand experience serving on program committees, and ideally, chairing them.</p>
+<h1 id="rfc.section.2.2"><a href="#rfc.section.2.2">2.2.</a> <a href="#administrative" id="administrative">Administrative</a></h1>
+<p id="rfc.section.2.2.p.1">A good fraction of the duties of the IRTF Chair are administrative. Some of them may be permanently or temporarily delegated to other IRSG members, but they ultimately always remain the IRTF Chair&#8217;s responsibility.</p>
+<p id="rfc.section.2.2.p.2">Some of those related to publishing documents on the IRTF RFC Stream, such as ensuring sufficient review, so that documents published are of good quality, scheduling the required Internet Engineering Steering Group (IESG) review <a href="#RFC5742">[RFC5742]</a>, and following up with the IESG, IANA and the RFC Editor during and after the publication process.</p>
+<p id="rfc.section.2.2.p.3">Other administrative duties include reviewing and approving requests from the RGs for time slots during IETF meetings or interim meetings elsewhere, ensuring that meeting materials are submitted on schedule, maintaining the IRTF web site, and &#8211; in cooperation with the RG chairs &#8211; ensuring that the IETF datatracker correctly reflects the status of the various IRTF-related documents.</p>
+<p id="rfc.section.2.2.p.4">The IRTF Chair appoints, replaces and manages the RG chairs and the IRSG, and follows the research work of the chartered and proposed RGs to a degree that is sufficient to let them develop an understanding on whether they are generally operating well.</p>
+<p id="rfc.section.2.2.p.5">The IRTF Chair also defines the operational procedures for the IRTF (in the boundaries defined by <a href="#RFC2014">[RFC2014]</a>) and the IRSG. At the moment, these procedures are captured as a set of <a href="#IRTF-WIKI">wiki pages</a> <cite title="NONE">[IRTF-WIKI]</cite> and it is the duty of the IRTF Chair to refine and update these descriptions as procedures evolve. When process questions on the IRSG or in an RG arise (e.g., on IPR, liaison statements, consensus procedures, copyright, plagiarism, document publication, etc.), the IRTF Chair is frequently consulted and needs to have sufficient familiarity in the area to provide a definitive answer, or at least be able to identify an external party for further consultation.</p>
+<p id="rfc.section.2.2.p.6">The IRSG tries to schedule a working dinner during each IETF meeting, and the IRTF Chair is responsible for organizing the agenda and a suitable venue.</p>
+<p id="rfc.section.2.2.p.7">The IRTF Chair provides a status report on the IRTF to the IAB on a monthly basis, and also writes a regular column for the <a href="#IETF-JOURNAL">IETF Journal</a> <cite title="NONE">[IETF-JOURNAL]</cite> on recent IRTF-related events.</p>
+<p id="rfc.section.2.2.p.8">During each IETF meeting, the IRTF Chair is responsible for organizing and chairing the &#8220;IRTF Open Meeting&#8221;, during which topics related to the IRTF are being presented and discussed. This includes a report by the IRTF Chair on the status of the IRTF and its RGs (an abbreviated version of this report is also usually given during the IETF Technical Plenary) as well as other presentations from RGs, ANRP prize winners, individuals wishing to propose new RGS, or others.</p>
+<p id="rfc.section.2.2.p.9">These administrative duties are very similar to part of the duties of an Area Director (AD) in the IETF and require the same set of organizational and communication skills <a href="#IESG-EXP">[IESG-EXP]</a>. They also require a regular time commitment throughout the year, the ability to attend most of the IETF meetings in person, as well as some other related travel.</p>
+<p id="rfc.section.2.2.p.10">The IRTF Chair regularly interacts with the ADs and the IESG for document reviews, IETF meeting agenda planning, and often provides input on various IETF efforts and topics. The IRTF Chair also regularly interacts with the IETF Administrative Oversight Committee (IAOC) and the IETF Secretariat for meeting planning, budgeting and other organizational purposes. In addition, the IRTF Chair also interacts with the Tools Team to provide input on how IETF tools can best support the operation of the IRTF. Finally, the IRTF Chair is the owner of the IRTF RFC Stream and is hence part of the group that reviews the RFC Editor&#8217;s performance and operation; and engages with the Independent Submission Editor in cases where submissions on that RFC Stream have relationships to the IRTF. A good understanding of the purpose and procedures of these different bodies and a good working relationship with the individuals serving on them is important.</p>
+<h1 id="rfc.section.2.3"><a href="#rfc.section.2.3">2.3.</a> <a href="#iab-membership" id="iab-membership">IAB Membership</a></h1>
+<p id="rfc.section.2.3.p.1">The IRTF Chair serves as an &#8220;ex officio&#8221; member of the IAB <a href="#RFC2850">[RFC2850]</a>, and is expected to participate in IAB discussions and activities alongside the NomCom-appointed IAB members.</p>
+<p id="rfc.section.2.3.p.2">This duty benefits from expertise that is similar to those of full IAB members <a href="#IAB-EXP">[IAB-EXP]</a>, and requires a similar time and travel commitment, for example, to attend IAB retreats, relevant IAB workshops as well as other meetings the IAB is participating in or organizing. Per <a href="#IAB-EXP">[IAB-EXP]</a>, &#8220;it is desirable for IAB members to have technical leadership experience, operational management backgrounds, research or academic backgrounds, implementation experience, and experience in other bodies involved in Internet governance.&#8221;</p>
+<p id="rfc.section.2.3.p.3">The IRTF Chair frequently provides input to &#8220;birds-of-a-feather&#8221; (BoF) sessions, either as an ex officio IAB member (i.e., as a &#8220;BoF shepherd&#8221;) or because it may be unclear whether a proposed effort should be started as an IETF WG or an IRTF RG.</p>
+<h1 id="rfc.section.3"><a href="#rfc.section.3">3.</a> <a href="#security-considerations" id="security-considerations">Security Considerations</a></h1>
+<p id="rfc.section.3.p.1">This document raises no security considerations.</p>
+<h1 id="rfc.section.4"><a href="#rfc.section.4">4.</a> <a href="#iana-considerations" id="iana-considerations">IANA Considerations</a></h1>
+<p id="rfc.section.4.p.1">This document has no IANA considerations.</p>
+<h1 id="rfc.section.5"><a href="#rfc.section.5">5.</a> <a href="#acknowledgments" id="acknowledgments">Acknowledgments</a></h1>
+<p id="rfc.section.5.p.1">Robert Sparks, Brian Trammell, Stephen Farrell, Niels ten Oever, Dirk Kutscher, Aaron Falk, Jana Iyengar, Mat Ford, Adrian Farrel, Barry Leiba and Dave Thaler provided suggestions that improved this document.</p>
+<p id="rfc.section.5.p.2">Lars Eggert has received funding from the European Union&#8217;s Horizon 2020 research and innovation program 2014-2018 under grant agreement No. 644866 (&#8220;SSICLOPS&#8221;).  This document reflects only the authors&#8217; views and the European Commission is not responsible for any use that may be made of the information it contains.</p>
+<p id="rfc.section.5.p.3">This document is being prepared in a <a href="#REPO">Github repository</a> <cite title="NONE">[REPO]</cite> using Martin Thomson&#8217;s <a href="#ID-TEMPLATE">I-D template</a> <cite title="NONE">[ID-TEMPLATE]</cite> and Carsten Bormann&#8217;s <a href="#KRAMDOWN-RFC2629">[KRAMDOWN-RFC2629]</a>.</p>
+<h1 id="rfc.references"><a href="#rfc.references">6.</a> Informative References</h1>
+<table>
+  <tbody>
+    <tr>
+      <td class="reference">
+        <b id="IAB-EXP">[IAB-EXP]</b>
+      </td>
+      <td class="top"><a>NomCom 2015</a>, "<a href="https://datatracker.ietf.org/nomcom/2015/requirements/#iab-member">Desired Expertise: Member of the Internet Architecture Board</a>", 2015.</td>
+    </tr>
+    <tr>
+      <td class="reference">
+        <b id="ID-TEMPLATE">[ID-TEMPLATE]</b>
+      </td>
+      <td class="top"><a>Thomson, M.</a>, "<a href="https://github.com/martinthomson/i-d-template">martinthomson/i-d-template</a>", n.d..</td>
+    </tr>
+    <tr>
+      <td class="reference">
+        <b id="IESG-EXP">[IESG-EXP]</b>
+      </td>
+      <td class="top"><a>NomCom 2015</a>, "<a href="http://trac.tools.ietf.org/group/iesg/trac/wiki/GenericExpertise">Generic IESG Member Expertise</a>", 2015.</td>
+    </tr>
+    <tr>
+      <td class="reference">
+        <b id="IETF-JOURNAL">[IETF-JOURNAL]</b>
+      </td>
+      <td class="top"><a>Internet Society</a>, "<a href="http://www.internetsociety.org/publications/ietf-journal">The IETF Journal</a>", n.d..</td>
+    </tr>
+    <tr>
+      <td class="reference">
+        <b id="IRTF-WIKI">[IRTF-WIKI]</b>
+      </td>
+      <td class="top"><a>Internet Research Task Force</a>, "<a href="http://trac.tools.ietf.org/group/irtf/trac/wiki">IRTF Wiki</a>", n.d..</td>
+    </tr>
+    <tr>
+      <td class="reference">
+        <b id="KRAMDOWN-RFC2629">[KRAMDOWN-RFC2629]</b>
+      </td>
+      <td class="top"><a>Bormann, C.</a>, "<a href="https://github.com/cabo/kramdown-rfc2629">cabo/kramdown-rfc2629</a>", n.d..</td>
+    </tr>
+    <tr>
+      <td class="reference">
+        <b id="REPO">[REPO]</b>
+      </td>
+      <td class="top"><a>Eggert, L.</a>, "<a href="https://github.com/larseggert/irtf-chair-description">larseggert/irtf-chair-description</a>", n.d..</td>
+    </tr>
+    <tr>
+      <td class="reference">
+        <b id="RFC2014">[RFC2014]</b>
+      </td>
+      <td class="top"><a>Weinrib, A.</a> and <a>J. Postel</a>, "<a href="http://tools.ietf.org/html/rfc2014">IRTF Research Group Guidelines and Procedures</a>", BCP 8, RFC 2014, DOI 10.17487/RFC2014, October 1996.</td>
+    </tr>
+    <tr>
+      <td class="reference">
+        <b id="RFC2850">[RFC2850]</b>
+      </td>
+      <td class="top"><a>Internet Architecture Board</a> and <a>B. Carpenter</a>, "<a href="http://tools.ietf.org/html/rfc2850">Charter of the Internet Architecture Board (IAB)</a>", BCP 39, RFC 2850, DOI 10.17487/RFC2850, May 2000.</td>
+    </tr>
+    <tr>
+      <td class="reference">
+        <b id="RFC4440">[RFC4440]</b>
+      </td>
+      <td class="top"><a>Floyd, S.</a>, <a>Paxson, V.</a>, <a>Falk, A.</a> and <a>IAB</a>, "<a href="http://tools.ietf.org/html/rfc4440">IAB Thoughts on the Role of the Internet Research Task Force (IRTF)</a>", RFC 4440, DOI 10.17487/RFC4440, March 2006.</td>
+    </tr>
+    <tr>
+      <td class="reference">
+        <b id="RFC5742">[RFC5742]</b>
+      </td>
+      <td class="top"><a>Alvestrand, H.</a> and <a>R. Housley</a>, "<a href="http://tools.ietf.org/html/rfc5742">IESG Procedures for Handling of Independent and IRTF Stream Submissions</a>", BCP 92, RFC 5742, DOI 10.17487/RFC5742, December 2009.</td>
+    </tr>
+    <tr>
+      <td class="reference">
+        <b id="RFC5743">[RFC5743]</b>
+      </td>
+      <td class="top"><a>Falk, A.</a>, "<a href="http://tools.ietf.org/html/rfc5743">Definition of an Internet Research Task Force (IRTF) Document Stream</a>", RFC 5743, DOI 10.17487/RFC5743, December 2009.</td>
+    </tr>
+  </tbody>
+</table>
+<h1 id="rfc.authors">
+  <a href="#rfc.authors">Author's Address</a>
+</h1>
+<div class="avoidbreak">
+  <address class="vcard">
+	<span class="vcardline">
+	  <span class="fn">Lars Eggert</span> 
+	  <span class="n hidden">
+		<span class="family-name">Eggert</span>
+	  </span>
+	</span>
+	<span class="org vcardline">NetApp</span>
+	<span class="adr">
+	  <span class="vcardline">Sonnenallee 1</span>
+
+	  <span class="vcardline">
+		<span class="locality">Kirchheim bei M&#252;nchen</span>,  
+		<span class="region"></span>
+		<span class="code">85551</span>
+	  </span>
+	  <span class="country-name vcardline">Germany</span>
+	</span>
+	<span class="vcardline">Phone: +49 151 120 55791</span>
+
+<span class="vcardline">EMail: <a href="mailto:lars@netapp.com">lars@netapp.com</a></span>
+
+  </address>
+</div>
+
+  <div class="github-fork-ribbon-wrapper"><div class="github-fork-ribbon"><a href="https://github.com/larseggert/irtf-chair-description">Fork me on GitHub</a></div></div>
+</body>
+</html>
